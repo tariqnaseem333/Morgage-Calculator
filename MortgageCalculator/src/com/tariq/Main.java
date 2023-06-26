@@ -20,7 +20,7 @@ public class Main {
         while(true) {
             System.out.print("Principal ($1K - $1M): ");
             principal = scanner.nextInt();
-            if( principal >= 1000 && principal <= 1_000_000 ) {
+            if( principal >= 1_000 && principal <= 1_000_000 ) {
                 break;
             }
             System.out.println("Enter a number Between $1K and $1M.");
